@@ -1,1 +1,0 @@
-document.getElementById("root").innerHTML='<object type="text/html" data="pages/Home/index.html" ></object>';
