@@ -1,0 +1,214 @@
+#carousel-lemon .carousel-caption {
+    color: var(--color-text);
+    padding-left: 35%;
+    padding-bottom: 7%;
+    justify-items: left !important;
+    color: var(--color-text);
+}
+
+#carousel-lemon #carousel-text-1 {
+    font: 900 47px Montserrat;
+}
+
+#carousel-lemon #carousel-text-2 {
+    font: 700 25px Montserrat;
+    padding-right: 150px;
+    text-align: left;
+}
+
+#carousel-lemon #carousel-text-3 {
+    font: 400 14px Montserrat;
+    padding-right: 110px;
+    padding-top: 10px;
+    text-align: left;
+}
+
+#carousel-lemon #carousel-text-4 {
+    font: 400 10px Montserrat;
+    padding-right: 110px;
+    padding-top: 10px;
+    text-align: left;
+}
+
+#carousel-lemon #carousel-text-5 {
+    font: bold 10px Montserrat;
+    padding-top: 10px;
+    text-align: left;
+}
+
+#quem-somos {
+    background-image: url("../images/home/Grupo23.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 585px;
+}
+
+#quem-somos-img {
+    float: right;
+    padding-right: 22%;
+    padding-top: 2%;
+}
+
+#quem-somos-img img {
+    height: 355px;
+}
+
+#quem-somos-text {
+    padding-left: 20%;
+    padding-top: 5%;
+    color: white;
+}
+
+#border-1 {
+    border-bottom: 5px solid var(--color-border-yeallow);
+    width: 110px;
+    padding-top: 2%;
+}
+
+#text-1 {
+    font: 900 54px Montserrat;
+}
+
+#text-2 {
+    font: 900 43px Montserrat;
+}
+
+.text-3 {
+    font: 400 14px Montserrat;
+    padding-top: 2%;
+    padding-right: 65%;
+}
+
+#text-4 {
+    padding-top: 2%;
+    font: 700 10px Montserrat;
+}
+
+#products {
+    height: 443px;
+    background-image: url("../images/home/Grupo22.png");
+}
+
+.products-title {
+    font: 700 25px Montserrat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.products-items {
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+.products-item {
+    width: 192px;
+    height: auto;
+    margin-right: 10px;
+    font: 700 20px Montserrat;
+    text-align: center;
+}
+
+.products-item img {
+    height: 192px;
+    width: auto;
+}
+
+.products-item p {
+    padding-top: 10%;
+}
+
+.carousel-indicators li {
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    background-color: var(--color-indicator);
+}
+
+.carousel-indicators .active {
+    background-color: var(--color-border-yeallow);
+}
+
+@media (min-width: 1367px) {
+    #carousel-lemon #carousel-text-1 {
+        font: 900 65px Montserrat;
+    }
+
+    #carousel-lemon #carousel-text-2 {
+        font: 700 35px Montserrat;
+        padding-right: 200px;
+    }
+
+    #carousel-lemon #carousel-text-3 {
+        font: 400 20px Montserrat;
+        padding-right: 120px;
+        padding-top: 20px;
+    }
+
+    #carousel-lemon #carousel-text-4 {
+        font: 400 14px Montserrat;
+        padding-right: 120px;
+        padding-top: 20px;
+    }
+
+    #carousel-lemon #carousel-text-5 {
+        font: bold 14px Montserrat;
+        padding-top: 20px;
+    }
+
+    #quem-somos {
+        height: 822px;
+    }
+
+    #quem-somos-img img {
+        height: 498px;
+    }
+
+    #border-1 {
+        width: 150px;
+    }
+
+    #text-1 {
+        font: 900 75px Montserrat;
+    }
+
+    #text-2 {
+        font: 900 60px Montserrat;
+    }
+
+    .text-3 {
+        font: 400 20px Montserrat;
+    }
+
+    #text-4 {
+        font: 700 14px Montserrat;
+    }
+
+    #products {
+        height: 623px;
+    }
+
+    .products-title {
+        font: 700 35px Montserrat;
+    }
+
+    .products-item {
+        width: 270px;
+        height: auto;
+        margin-right: 10px;
+    }
+
+    .products-item img {
+        width: 270px;
+        height: auto;
+    }
+
+    .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+    }
+
+}
+
